@@ -11,10 +11,42 @@
                 width: 300px;
                 height: 300px;
             }
+            body{
+                margin: 10px;
+            }
+            .navbar ul{
+                list-style-type: none;
+                background-color: rgb(69, 236, 180);
+                overflow: hidden;
+            }
+            .navbar a{
+                text-decoration: none;
+                display: block;
+                margin:0px;
+                padding:10px;
+                text-align: center;
+                margin-right: 100px;
+            }
+            .navbar a:hover{
+                background-color: rgb(28, 153, 111);
+            }
+            .navbar li{
+                float: left;
+            }
         </style>
     </head>
     <body>
         <h1>Rezepte</h1>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Frühstück</a></li>
+                <li><a href="">Mittagessen</a></li>
+                <li><a href="">Abendessen</a></li>
+                <li><a href="">Snack</a></li>
+            </ul>
+        </nav>
 
         <div class="recipe-preview">
             <div class="recipe-thumbnail">
