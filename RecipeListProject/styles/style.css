@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --body-color: #E4E9F7;
+    --nav-color: #4070F4;
+    --side-nav: #010718;
+    --text-color: #FFF;
+    --search-bar: #F2F2F2;
+    --search-text: #010718;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--body-color);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: var(--nav-color);
+}
+
+nav .nav-bar{
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background-color: var(--nav-color);
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-bar .logo a{
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.nav-bar .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-links li{
+    margin: 0 5px;
+    list-style: none;
+}
+
+.nav-links li a{
+    position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 10px;
+}
+
+.space {
+    height: 80px;
+    background-color: var(--body-color);
+}
+
+.recipe-preview {
+    margin: 2px;
+    margin-top: 12px;
+    margin-left: 12px;
+    display: inline-block;
+    vertical-align: top;
+    background: var(--nav-color);
+}
+.thumbnail {
+    width: 300px;
+    height: 300px;
+}
+.recipe-title a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--text-color);
+    margin-left: 80px;
+}
+.recipe-title a:hover{
+    color: var(--search-text);
+}
