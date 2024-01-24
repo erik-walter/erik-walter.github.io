@@ -1,43 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Easily Sort HTML Tables with CSS and JavaScript</title>
-	<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-	<table class="table-sortable">
-		<thead>
-			<tr>
-				<th width = 200px>Nummer</th>
-				<th width = 200px>Titel</th>
-				<th width = 200px>Punkte</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>1</td>
-				<td>Das Schweigen der Lämmer</td>
-				<td>9.9</td>
-			</tr>
-			<tr>
-				<td>2</td>
-				<td>Rebecca</td>
-				<td>Teacher</td>
-			</tr>
-			<tr>
-				<td>3</td>
-				<td>John</td>
-				<td>Civil Engineer</td>
-			</tr>
-			<tr>
-				<td>4</td>
-				<td>Andre</td>
-				<td>Dentist</td>
-			</tr>
-		</tbody>
-	</table>
+
+    <section>
+        <nav>
+            <div class="logo">
+                <h1>My Movie List</h1>
+            </div>
+        </nav>
+    </section>
+
+    <div class="second">
+        <div class="latest">
+            <div class="box">
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">Das Schweigen der Lämmer</p>
+                            <div class="date_quality">
+                                <p class="date">1991</p>
+                            </div>
+                            <div class="info">
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>9.9</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/schweigenderlaemmer.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">Mulholland Drive</p>
+                            <div class="date_quality">
+                                <p class="date">2001</p>
+                            </div>
+                            <div class="info">
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>8.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/mulhollanddrive.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">Alien</p>
+                            <div class="date_quality">
+                                <p class="date">1979</p>
+                            </div>
+                            <div class="info">
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>9.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/alien.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">Pulp Fiction</p>
+                            <div class="date_quality">
+                                <p class="date">1994</p>
+                            </div>
+                            <div class="info">
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>8.2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/pulpfiction.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+
+                            <p class="name">Blade Runner</p>
+                            <div class="date_quality">
+                                <p class="date">1982</p>
+                            </div>
+                            <div class="info">
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>9.1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/bladerunner.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="upcoming">
+        <div class="movies_box">
+            <div class="box">
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">The Shining</p>
+                            <div class="date_quality">
+                                <p class="date">1980</p>
+                            </div>
+                            <div class="info">
+								<div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>9.3</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/shining.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">Sieben</p>
+                            <div class="date_quality">
+                                <p class="date">1995</p>
+                            </div>
+                            <div class="info">
+								<div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>8.1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/seven.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">No Country for old Men</p>
+                            <div class="date_quality">
+                                <p class="date">2007</p>
+                            </div>
+                            <div class="info">
+								<div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>8.0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/nocountryforoldmen.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+
+                        <div class="left">
+
+                            <p class="name">Aquaman and the Lost Kingdom</p>
+                            <div class="date_quality">
+                                <p class="date">2023</p>
+                            </div>
+                            <div class="info">
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/aquaman.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">Ant-Man and the Wasp: Quantumania</p>
+                            <div class="date_quality">
+                                <p class="date">2023</p>
+                            </div>
+                            <div class="info">
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/ant_man.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="show">
+        <div class="tv_show">   
+            <div class="box">
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">Money Heist</p>
+                            <div class="date_quality">
+                                <p class="date">2017</p>
+                            </div>
+                            <div class="info">
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>8.2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/money_heist.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">Wednseday</p>
+                            <div class="date_quality">
+                                <p class="date">2022</p>
+                            </div>
+                            <div class="info">
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>8.2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/wednesday.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">1899</p>
+                            <div class="date_quality">
+                                <p class="date">2022</p>
+                            </div>
+                            <div class="info">
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>7.4</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/1899.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">Game of Thrones</p>
+                            <div class="date_quality">
+                                <p class="date">2011</p>
+                            </div>
+                            <div class="info">
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>9.2</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/game_of_thrones.jpg">
+                </div>
+                <div class="card">
+                    <div class="details">
+                        <div class="left">
+                            <p class="name">Arrow</p>
+                            <div class="date_quality">
+                                <p class="date">2012</p>
+                            </div>
+                            <div class="info">
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <p>7.5</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="image/arrow.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
