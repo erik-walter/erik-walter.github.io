@@ -1,104 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link rel="stylesheet" href="styles/style.css">
+        <title>Rezepte</title>
     </head>
     <body>
-        <nav>
-            <div class="nav-bar">
-                <span class="logo"><a>Rezepte</a></span>
+        <nav class="navbar">
+            <div class="container">
+              <div class="logo">Rezepte</div>
+              <ul class="nav">
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Frühstück</a>
+                </li>
+                <li>
+                  <a href="#">Mittagessen</a>
+                </li>
+                <li>
+                    <a href="#">Abendessen</a>
+                </li>
+                <li>
+                    <a href="#">Snacks</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
 
-                <div class="menu">
-                    <ul class="nav-links">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Frühstück</a></li>
-                        <li><a href="">Mittagessen</a></li>
-                        <li><a href="">Abendessen</a></li>
-                        <li><a href="">Snack</a></li>
-                    </ul>
+        <header class="header">
+            <div class="container">
+                <div>
+                    <h1>
+                        Rezepte
+                    </h1>
                 </div>
+                <img src="thumbnails/headerImage.jpg" alt="">
             </div>
-        </nav>
+        </header>
 
-        <div class="space">
-
-        </div>
-
-        <div class="recipe-preview">
-            <div class="recipe-thumbnail">
-                <img class="thumbnail" src="thumbnails/pancake.webp">
-            </div>
-            <div class="recipe-info">
-                <p class="recipe-title">
-                    <a href="recipes/pancake.html">Pfannkuchen</a>
-                </p>
-            </div>
-        </div>
-
-        <div class="recipe-preview">
-            <div class="recipe-thumbnail">
-                <img class="thumbnail" src="thumbnails/flammenkuchen.jpg">
-            </div>
-            <div class="recipe-info">
-                <p class="recipe-title">
-                    <a href="recipes/flammenkuchen.html">Flammkuchen</a>
-                </p>
-            </div>
-        </div>
-
-        <div class="recipe-preview">
-            <div class="recipe-thumbnail">
-                <img class="thumbnail" src="thumbnails/brownies.webp">
-            </div>
-            <div class="recipe-info">
-                <p class="recipe-title">
-                    <a href="recipes/brownies.html">Brownies</a>
-                </p>
-            </div>
-        </div>
-
-        <div class="recipe-preview">
-            <div class="recipe-thumbnail">
-                <img class="thumbnail" src="thumbnails/spaghettiBolognese.jpg">
-            </div>
-            <div class="recipe-info">
-                <p class="recipe-title">
-                    <a href="recipes/bolognese.html">Spaghetti Bolognese</a>
-                </p>
-            </div>
-        </div>
-
-        <div class="recipe-preview">
-            <div class="recipe-thumbnail">
-                <img class="thumbnail" src="thumbnails/chili-con-carne.webp">
-            </div>
-            <div class="recipe-info">
-                <p class="recipe-title">
-                    <a href="recipes/chili-con-carne.html">Chili con Carne</a>
-                </p>
-            </div>
-        </div>
-
-        <div class="recipe-preview">
-            <div class="recipe-thumbnail">
-                <img class="thumbnail" src="thumbnails/rote-linsen-kokos-suppe.webp">
-            </div>
-            <div class="recipe-info">
-                <p class="recipe-title">
-                    <a href="recipes/linsenKokosSuppe.html">Linsen Kokos Suppe</a>
-                </p>
-            </div>
-        </div>
-
-        <div class="recipe-preview">
-            <div class="recipe-thumbnail">
-                <img class="thumbnail" src="thumbnails/updated.jpg">
-            </div>
-            <div class="recipe-info">
-                <p class="recipe-title">
-                    <a href="recipes/pancake.html">Coming soon</a>
-                </p>
-            </div>
-        </div>
     </body>
 </html>
