@@ -1,80 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-:root{
-    --body-color: #E4E9F7;
-    --nav-color: #4070F4;
-    --side-nav: #010718;
-    --text-color: #FFF;
-    --search-bar: #F2F2F2;
-    --search-text: #010718;
+    font-family: Poppins, sans-serif;
 }
 
 body{
-    height: 100vh;
-    background-color: var(--body-color);
+    background-color: #a1c3ff;
 }
 
-nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 70px;
-    width: 100%;
-    background-color: var(--nav-color);
-}
+.logo{
+    margin-left: 30px;
+    font-size: 26px;
+    font-weight: bold;
+  }
 
-nav .nav-bar{
-    position: relative;
-    height: 100%;
-    max-width: 1000px;
-    width: 100%;
-    background-color: var(--nav-color);
-    padding: 0 30px;
+.navbar{
+    background-color: #3474e6;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+}
+  
+.navbar .container{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-}
-
-nav .nav-bar .logo a{
-    font-size: 25px;
-    font-weight: 500;
-    color: var(--text-color);
-    text-decoration: none;
-}
-
-.nav-bar .nav-links{
-    display: flex;
     align-items: center;
+    height: 100%;  
 }
-
-.nav-bar .nav-links li{
-    margin: 0 5px;
-    list-style: none;
+  
+  .container {
+    max-width: 1100px;
+    padding: 0 30px;
 }
-
-.nav-links li a{
-    position: relative;
-    font-size: 17px;
-    font-weight: 400;
+  
+.nav{
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+  
+ul li a {
+    color: white;
     text-decoration: none;
-    color: var(--text-color);
-    padding: 10px;
 }
-
-.space {
-    height: 80px;
-    background-color: var(--body-color);
+  
+li{
+    margin-left: 30px;
 }
 
 .description{
-    margin: 10px;
+    margin: 30px;
+    margin-left: 58px;
     font-size: 17px;
 }
+
 p{
     width: 450px;
     text-align: justify;
