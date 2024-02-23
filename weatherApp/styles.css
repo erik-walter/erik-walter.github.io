@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+body{
+  background-color: rgb(39, 35, 35);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.card{
+  height: 450px;
+  width: 350px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+}
+
+.search{
+  display: flex;
+}
+
+.card input{
+  width: 250px;
+  margin: 15px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 35px;
+  height: 40px;
+  text-align: center;
+  outline: none;
+}
+
+.card button{
+  margin-top: 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+}
+
+.search button img{
+  width: 10px;
+}
+
+.symbolweather img{
+  height: 150px;
+}
+.degree{
+  font-size: 50px;
+}
+.city{
+  margin-top: 10px;
+  font-size: 35px;
+}
+
+.details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.humidity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.humidity img{
+  margin: 5px;
+  height: 30px;
+}
+.humidity p{
+  text-align: center;
+  font-size: 23px;
+}
+.windspeed{
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.windspeed img{
+  margin: 5px;
+  height: 30px;
+}
+.windspeed p{
+  text-align: center;
+  font-size: 23px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#h{
+  font-size: 14px;
+  margin-left: 22px;
+  margin-right: 20px;
+}
+#ws{
+  font-size: 14px;
+  margin-left: 52px;
+}
