@@ -39,6 +39,7 @@ body{
   height: 40px;
   text-align: center;
   outline: none;
+  color:rgb(83, 82, 82);
 }
 
 .card button{
@@ -70,17 +71,17 @@ body{
   align-items: center;
   margin-top: 20px;
 }
-.humidity{
+.humiditydiv{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 20px;
 }
-.humidity img{
+.humiditydiv img{
   margin: 5px;
   height: 30px;
 }
-.humidity p{
+.humiditydiv p{
   text-align: center;
   font-size: 23px;
 }
