@@ -98,7 +98,7 @@
   .portfolios .portfolio-item .hover-items h3 {
     font-size: 1.5rem;
     color: var(--color-white);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.0rem;
   }
   .portfolios .portfolio-item .hover-items .icons {
     display: flex;
