@@ -1,14 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  
 }
 
-body{
-  background: linear-gradient(135deg, #153677, #4e085f);
+body {
+  background: linear-gradient(130deg, #153677, #4e085f);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.container{
+.container {
   margin: 5% auto;
   background-color: white;
   width: 35%;
@@ -17,7 +20,7 @@ body{
   padding: 30px;
 }
 
-.addtask{
+.addtask {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,7 +29,7 @@ body{
   padding-left: 20px;
   margin-bottom: 25px;
 }
-.addtask input{
+.addtask input {
   flex: 1;
   border: none;
   outline: none;
@@ -34,7 +37,7 @@ body{
   padding: 10px;
   font-weight: 14px;
 }
-button{
+button {
   border: none;
   outline: none;
   padding: 16px 50px;
@@ -45,10 +48,10 @@ button{
   border-radius: 40px;
 }
 
-.list-container{
+.list-container {
   list-style-type: none;
 }
-ul li{
+ul li {
   list-style: none;
   font-size: 17px;
   padding: 12px 8px 12px 50px;
@@ -56,19 +59,19 @@ ul li{
   cursor: pointer;
   position: relative;
 }
-.title{
+.title {
   margin-bottom: 20px;
   display: flex;
   color: rgb(0, 0, 120);
   font-size: 14px;
   font-weight: bold;
 }
-.title img{
+.title img {
   margin-left: 10px;
   height: 30px;
 }
-ul li::before{
-  content: '';
+ul li::before {
+  content: "";
   position: absolute;
   height: 28px;
   width: 28px;
@@ -80,15 +83,15 @@ ul li::before{
   left: 8px;
 }
 
-ul li.checked{
+ul li.checked {
   color: #555;
   text-decoration: line-through;
 }
-ul li.checked::before{
+ul li.checked::before {
   background-image: url(images/checked.png);
 }
 
-ul li span{
+ul li span {
   position: absolute;
   right: 0;
   top: 5px;
@@ -101,6 +104,6 @@ ul li span{
   line-height: 40px;
 }
 
-ul li span:hover{
+ul li span:hover {
   background: #edeef0;
 }
