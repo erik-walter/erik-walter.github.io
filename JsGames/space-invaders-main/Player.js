@@ -55,7 +55,7 @@ export default class Player {
     if (event.code == "KeyA") {
       this.leftPressed = true;
     }
-    if (event.codew == "KeyW") {
+    if (event.code == "KeyW") {
       this.shootPressed = true;
     }
   };
