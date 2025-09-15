@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Simple JS Projects</title>
+    
+    <!-- CSS-Dateien -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="is-preload">
+
+<!-- Header -->
+<div id="header">
+
+    <div class="top">
+
+        <!-- Logo -->
+        <div id="logo">
+            <h1 id="title">JavaScript Apps</h1>
+        </div>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+                <li><a href="#1" id="portfolio-link"><span class="icon solid fa-check">To-Do Liste</span></a></li>
+                <li><a href="#2" id="portfolio-link"><span class="icon solid fa-calculator">Taschenrechner</span></a></li>
+                <li><a href="#3" id="contact-link"><span class="icon solid fa-stopwatch">Stoppuhr</span></a></li>
+                <li><a href="#4" id="contact-link"><span class="icon solid fa-star">Memory Spiel</span></a></li>
+                <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Kontakt</span></a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="bottom"></div>
+
+</div>
+
+<!-- Main -->
+<div id="main">
+
+    <!-- Intro -->
+    <section id="top" class="one dark cover">
+        <div class="container">
+
+            <header>
+                <h2 class="alt">Eine Sammlung simpler JavaScript Apps</h2>
+            </header>
+
+        </div>
+    </section>
+
+    <!-- Projekt 1-->
+    <section id="1" class="todo">
+        <div class="todo-container">
+          <h2>To-Do Liste</h2>
+          <input type="text" id="new-task" placeholder="Neue Aufgabe eingeben..." />
+          <button id="add-task">Hinzufügen</button>
+          <ul id="task-list"></ul>   
+    </section>
+
+    <!-- Projekt 2-->
+    <section id="2" class="taschenrechner">
+      <div class="taschenrechner-container">
+        <h2>Taschenrechner</h2>
+        <input type="text" id="calc-display" readonly />
+
+        <div class="calc-buttons">
+          <button class="btn" data-action="clear">C</button>
+          <button class="btn" data-action="back">&larr;</button>
+          <button class="btn" data-value="/">÷</button>
+          <button class="btn" data-value="*">×</button>
+
+          <button class="btn" data-value="7">7</button>
+          <button class="btn" data-value="8">8</button>
+          <button class="btn" data-value="9">9</button>
+          <button class="btn" data-value="-">−</button>
+
+          <button class="btn" data-value="4">4</button>
+          <button class="btn" data-value="5">5</button>
+          <button class="btn" data-value="6">6</button>
+          <button class="btn" data-value="+">+</button>
+
+          <button class="btn" data-value="1">1</button>
+          <button class="btn" data-value="2">2</button>
+          <button class="btn" data-value="3">3</button>
+          <button class="btn equal" data-action="calculate">=</button>
+
+          <button class="btn zero" data-value="0">0</button>
+          <button class="btn" data-value=".">.</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projekt 3-->
+    <section id="3" class="stoppuhr">
+      <div class="stoppuhr-container">
+        <h2>Stoppuhr</h2>
+        <div id="timer">00:00:00</div>
+        <div class="stoppuhr-buttons">
+          <button id="start-btn">Start</button>
+          <button id="stop-btn">Stop</button>
+          <button id="reset-btn">Reset</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="4" class="memory">
+      <div class="memory-container">
+        <h2>Memory-Spiel</h2>
+        <div id="game-board" class="game-board"></div>
+        <p id="status"></p>
+        <button id="restart-btn">Neu starten</button>
+      </div>
+    </section>
+
+
+
+    <!-- Kontakt -->
+    <section id="contact" class="four">
+        <div class="container">
+
+            <header>
+                <h2>Kontakt</h2>
+            </header>
+
+            <p>
+                <span class="icon solid fa-envelope" style="margin-right: 1rem;"></span>
+                e.waltersoftware@gmail.com
+                <br />
+                <a href="https://github.com/erik-walter" target="_blank" rel="noopener" style="border-bottom: none;">
+                    <span class="icon brands fa-github" style="margin-right: 1rem;"></span>
+                    GitHub
+                </a>
+            </p>
+
+        </div>
+    </section>
+
+</div>
+
+<!-- JS-Dateien -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
