@@ -2631,3 +2631,9 @@ input, select, textarea {
 				}
 
 	}
+
+	#logo .profilbild img {
+  width: 120px; 
+  height: 120px;
+  object-fit: cover;
+}
